@@ -23,7 +23,7 @@ pyautogui.press("enter")
 time.sleep(3)
 
 # Passo 2: Fazer login
-pyautogui.click(x=253, y=337)
+pyautogui.click(x=845, y=354)
 pyautogui.write("pythonimpressionador@gmail.com")
 
 #preencher a senha
@@ -42,7 +42,7 @@ print(tabela)
 
 # Passo 4: Cadastrar 1 produto
 for linha in tabela.index:
-    pyautogui.click(x=283, y=233)
+    pyautogui.click(x=779, y=242)
 
     codigo = tabela.loc[linha, "codigo"]
     pyautogui.write(codigo)
