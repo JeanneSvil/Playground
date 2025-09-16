@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px
 
-tabela = pd.read_csv(".\ClientesBanco.csv", encoding="latin1")
+tabela = pd.read_csv("Backend/Python/Analise de Dados/mini analise de dados/ClientesBanco.csv", encoding="latin1")
 
 tabela = tabela.drop("CLIENTNUM", axis=1)
 
